@@ -7,9 +7,6 @@ A fun and interactive multiplayer drawing and guessing game that brings friends 
 
 **Project URL**: [click here](https://lovable.dev/projects/2526e469-2540-4868-8929-9ed0462687aa)
 
-You can edit this application directly on Lovable by visiting the project and prompting.
-
-
 ## 🎨 About
 
 **Doodle Party Time** is an engaging web application that allows multiple users to participate in real-time drawing and guessing activities. Players can join rooms, take turns drawing prompts, and compete to guess what others are creating.
