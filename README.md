@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+# 🎉 Welcome to Doodle Party Time
 
-## Project info
+A fun and interactive multiplayer drawing and guessing game that brings friends together for creative entertainment.
 
-**URL**: https://lovable.dev/projects/2526e469-2540-4868-8929-9ed0462687aa
 
-## How can I edit this code?
+## 🔗 Project Info
 
-There are several ways of editing your application.
+**Project URL**: [click here](https://lovable.dev/projects/2526e469-2540-4868-8929-9ed0462687aa)
 
-**Use Lovable**
+You can edit this application directly on Lovable by visiting the project and prompting.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2526e469-2540-4868-8929-9ed0462687aa) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎨 About
 
-**Use your preferred IDE**
+**Doodle Party Time** is an engaging web application that allows multiple users to participate in real-time drawing and guessing activities. Players can join rooms, take turns drawing prompts, and compete to guess what others are creating.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ✨ Features
 
-Follow these steps:
+- **Multiplayer Support** – Join rooms with friends or play with random players  
+- **Real-time Drawing** – Collaborative drawing canvas with live updates  
+- **Interactive Guessing** – Chat-based guessing system with instant feedback  
+- **Room Management** – Create private rooms or join public games  
+- **Drawing Tools** – Multiple brush sizes, colors, and drawing utilities  
+- **Scoring System** – Points-based competition to track performance  
+- **User Profiles** – Personal statistics and game history  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Getting Started
 
-# Step 3: Install the necessary dependencies.
-npm i
+### ✅ Prerequisites
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+- Node.js (v14 or higher)  
+- npm or yarn package manager  
+
+### 🧰 Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ayushchaware08/doodle-party-time.git
+   cd doodle-party-time
+  
+2. Install dependencies
+  ```bash
+  npm install
 ```
 
-**Edit a file directly in GitHub**
+3. Set up environment variables
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+  ```bash
+  cp .env.example .env
+  # Then edit the .env file with your configuration
+```
 
-**Use GitHub Codespaces**
+4. Start the development server
+  ```bash
+  npm run dev
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+5. Open your browser and go to:
 
-## What technologies are used for this project?
+```arduino
+http://localhost:3000
+```
 
-This project is built with:
+## 🛠️ Tech Stack
+Frontend: HTML5, CSS3, JavaScript
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Backend: Node.js, Express.js
 
-## How can I deploy this project?
+Real-time Communication: Socket.io
 
-Simply open [Lovable](https://lovable.dev/projects/2526e469-2540-4868-8929-9ed0462687aa) and click on Share -> Publish.
+Database: MongoDB (or your preferred DB)
 
-## Can I connect a custom domain to my Lovable project?
+Authentication: JWT Tokens
 
-Yes, you can!
+## 🎮 How to Play
+Join a Room – Enter a room code or create a new game
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Wait for Players – Game starts when enough players join
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Draw Your Turn – Draw the given prompt when it's your turn
+
+Guess Others' Drawings – Type your guesses in the chat
+
+Earn Points – Correct guesses and good drawings earn points
+
+Win the Game – The player with the most points wins!
+
+## 📝 License
+This project is licensed under the MIT License – see the LICENSE file for details.
